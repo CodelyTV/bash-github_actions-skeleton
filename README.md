@@ -11,7 +11,6 @@
 <p align="center">
     <a href="https://github.com/CodelyTV"><img src="https://img.shields.io/badge/CodelyTV-OS-green.svg?style=flat-square" alt="codely.tv"/></a>
     <a href="http://pro.codely.tv"><img src="https://img.shields.io/badge/CodelyTV-PRO-black.svg?style=flat-square" alt="CodelyTV Courses"/></a>
-    <a href="https://github.com/marketplace/actions/check-critical-files"><img src="https://img.shields.io/github/v/release/CodelyTV/check-critical-files?style=flat-square" alt="GitHub Action version"></a>
 </p>
 
 <p align="center">
