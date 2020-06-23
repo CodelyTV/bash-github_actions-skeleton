@@ -19,7 +19,7 @@
 
 ## 🚀 Usage
 
-Create a file named `checker.yml` inside the `.github/workflows` directory and paste:
+Create a file named `whatever_name.yml` inside the `.github/workflows` directory and paste:
 
 ```yml
 name: Bash GH Skeleton
