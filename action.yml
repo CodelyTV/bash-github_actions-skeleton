@@ -1,5 +1,5 @@
-name: 'Check Critical Files'
-description: 'Check for critical files in your commits and warns you'
+name: 'The name of your action'
+description: 'The description of the action'
 branding:
   icon: 'alert-circle'
   color: 'gray-dark'
@@ -7,18 +7,13 @@ inputs:
   GITHUB_TOKEN:
     description: 'GitHub token'
     required: true
-  critical_files:
-    description: 'A newline separated list of critical files'
+  another_input:
+    description: 'A demo argument'
     required: true
-  critical_message:
-    description: 'Message to show when listing all commited critical files'
-    required: false
-    default: 'Caution! you have commited some critical files'
 runs:
   using: 'docker'
   image: 'Dockerfile'
   args:
     - ${{ inputs.GITHUB_TOKEN }}
-    - ${{ inputs.critical_files }}
-    - ${{ inputs.critical_message }}
+    - ${{ inputs.another_input }}
 

@@ -11,7 +11,6 @@
 <p align="center">
     <a href="https://github.com/CodelyTV"><img src="https://img.shields.io/badge/CodelyTV-OS-green.svg?style=flat-square" alt="codely.tv"/></a>
     <a href="http://pro.codely.tv"><img src="https://img.shields.io/badge/CodelyTV-PRO-black.svg?style=flat-square" alt="CodelyTV Courses"/></a>
-    <a href="https://github.com/marketplace/actions/check-critical-files"><img src="https://img.shields.io/github/v/release/CodelyTV/check-critical-files?style=flat-square" alt="GitHub Action version"></a>
 </p>
 
 <p align="center">
@@ -20,7 +19,7 @@
 
 ## 🚀 Usage
 
-Create a file named `checker.yml` inside the `.github/workflows` directory and paste:
+Create a file named `whatever_name.yml` inside the `.github/workflows` directory and paste:
 
 ```yml
 name: Bash GH Skeleton
@@ -35,7 +34,7 @@ jobs:
       - uses: codelytv/buash-github_action-skeleton@v1
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          some_argument: Some value
+          another_input: Some value
 ```
 
 ## ⚖️ License
