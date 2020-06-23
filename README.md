@@ -34,7 +34,7 @@ jobs:
       - uses: codelytv/buash-github_action-skeleton@v1
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          some_argument: Some value
+          another_input: Some value
 ```
 
 ## ⚖️ License
