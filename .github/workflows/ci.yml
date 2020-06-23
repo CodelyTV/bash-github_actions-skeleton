@@ -5,7 +5,7 @@ on: [pull_request]
 jobs:
   build:
     runs-on: ubuntu-latest
-    name: Ensures this project runs
+    name: Ensure this project runs
     steps:
       - uses: actions/checkout@v1
       - uses: ./
